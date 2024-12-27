@@ -1,0 +1,59 @@
+.nav-cointainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.store-logo{
+    height: 26px;
+    width: 118px;
+}
+.trigger-btn-ele{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.arrow{
+ display: flex;   
+ justify-content: center;
+ align-items: center;
+}
+.pop-up-btn{
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.4705882353;
+    background: transparent;
+    border: none;
+    color: #1d1d1f;
+    cursor: pointer;
+}
+.pop-up-content-1{
+    color: black;
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: solid 1px  #86868b;
+    transition: color 0.3s;
+    margin-top: 10px;
+    font-size: 17px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.pop-up-content-1 :hover {
+    color: #86868b;
+}
+
+.save-button{
+    background-color: #0071E3;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #fff;
+    border-radius: 40px;
+    border: none;
+}
