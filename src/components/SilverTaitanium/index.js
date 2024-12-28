@@ -5,6 +5,7 @@ import silverTaitaniumSideImg from "../../assets/imgside2.png"
 import Collections from '../Collections'
 
 import "./index.css"
+import Header from '../Header'
 
 const watchItem = {
      id:2,
@@ -18,11 +19,11 @@ const watchItem = {
 const SilverTaitanium = () => {
   return (
     <>
-    
-        <div className='watch-list-cointainer'>
-            <Collections watchItem = {watchItem} />
-        </div>
-        </>
+      <Header/>
+      <div className='watch-list-cointainer'>
+          <Collections watchItem = {watchItem} />
+      </div>
+    </>
   )
 }
 

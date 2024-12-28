@@ -4,6 +4,11 @@ import React from 'react'
 import "./index.css"
 
 const Home = () => {
+
+const navToStudio = () => {
+    window.location.href = '/jetblackaluminium'
+}
+
   return (
     <div className='home-cointainer'>
          <div>
@@ -21,7 +26,7 @@ const Home = () => {
                     <span className='designstudio-intro-collectionname'>Create your own style.</span> <br/>
                 </span>
             </h1>
-                <button className='get-start-btn'>Get Started</button>
+                <button className='get-start-btn' onClick={navToStudio}>Get Started</button>
             </div>
             <div className='designstudio-combinedimage'>
                 <img src='https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-case-46-aluminum-jetblack-nc-s10_VW_PF+watch-face-46-aluminum-jetblack-s10_VW_PF?wid=1000&hei=1000&fmt=png-alpha&.v=ZkpvU2VZQXB3RnNRVENEZS9Wb2Y3NkVmS05vWHBxQ1hNMzNlZ1l5V3RQRm0xR2lBNEhDZ3RrRjNEOTloOGpFekM4bU8yL1REVmF4VUkrMW5QRGtKeWZZdXM3S3c2TnF5czBINnVYaTd4cVVFV3ZkVVErQ2lxQjUvY3lWaGtLb0N0ellxUDB4dVliN1NPTHhYUld4M0p5am05N0NVWnlUTTNBaW9WT3lDS2lvbmYzRTFGU1cyNFdtdUoxcXBXVFAv'

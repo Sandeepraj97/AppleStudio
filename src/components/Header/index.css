@@ -29,6 +29,10 @@
     border: none;
     color: #1d1d1f;
     cursor: pointer;
+    text-decoration: none;
+}
+.link-list{
+    text-decoration: none;
 }
 .pop-up-content-1{
     color: black;
@@ -42,6 +46,7 @@
     font-size: 17px;
     padding: 10px;
     cursor: pointer;
+    list-style-type: none;
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 .pop-up-content-1 :hover {

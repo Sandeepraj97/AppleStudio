@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react' 
 import Collections from '../Collections'
 
 import silverAliminiumImg from "../../assets/img3.png"
 import silverAliminiumSideImg from "../../assets/imgside3.png"
 
 import "./index.css"
+import Header from '../Header'
 
 
 const watchItem = {
@@ -20,6 +21,7 @@ const watchItem = {
 const SilverAliminium = () => {
   return (
     <>
+        <Header/>
         <div className='watch-list-cointainer'>
             <Collections watchItem = {watchItem} />
         </div>

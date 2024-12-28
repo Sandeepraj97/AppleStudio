@@ -1,6 +1,7 @@
 import jetBlackAluminiumImg from "../../assets/img1.png"
 import jetBlackAluminiumSIdeView from "../../assets/imgside1.png"
 import Collections from '../Collections'
+import Header from "../Header"
 
 import "./index.css"
 
@@ -15,7 +16,7 @@ const watchItem = {
 const JetBlackAluminium = () => {
   return (
     <>
-        
+        <Header/>
         <div className='watch-list-cointainer'>
             <Collections watchItem = {watchItem} />
         </div>

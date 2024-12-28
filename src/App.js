@@ -5,14 +5,10 @@ import {BrowserRouter, Route, Switch} from "react-router-dom"
 import './App.css';
 import Home from "./components/Home"
 import JetBlackAluminium from './components/JetBlackAluminium';
-import Header from "./components/Header";
 import SilverTaitanium from "./components/SilverTaitanium"
 import SilverAliminum from "./components/SilverAliminium"
 
-function App() {
-
-
-  return (
+const App = () => (
     // <Home />
 
     // <JetBlackAluminium />
@@ -20,17 +16,17 @@ function App() {
     <>
       
       <BrowserRouter>
-      <Header />
+      
         <Switch>
           <Route exact path="/" component= {Home} />
-          <Route exact path= "/jetblackaluminium" component={JetBlackAluminium} />
-          <Route exact path= "/silverTaitanium" component={SilverTaitanium} />
-          <Route exact path = "/silverAliminum" component={SilverAliminum} />
+          <Route  path= "/jetblackaluminium" component={JetBlackAluminium} />
+          <Route  path= "/silverTaitanium" component={SilverTaitanium} />
+          <Route  path = "/silverAliminum" component={SilverAliminum} />
         </Switch>
       </BrowserRouter>
     </>
 
   );
-}
+
 
 export default App;
